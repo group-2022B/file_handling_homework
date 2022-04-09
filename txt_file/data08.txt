@@ -1,0 +1,5 @@
+Django 4.0
+NumPy 1.22.0
+TensorFlow 2
+python 3.10.0
+Windows 7

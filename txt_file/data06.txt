@@ -1,0 +1,6 @@
+CODESCHOOLUZ
+ML
+CV
+OpenCV
+Numpy
+PYTHON

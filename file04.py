@@ -7,15 +7,16 @@ def main(data:str):
         list: return answer
     """
     ans = []
-    temp = data.split('\n')
-    for i in temp:
-        for j in i:
-            if not j.isdigit():
-                ans += j
+    for line in data:
+        for char in line:
+            if char.isdigit():
+                continue
+            else:
+                ans.append(char)
     return ans
 
     
 # Read data from file
 with open('txt_file/data04.txt', 'r') as f:
-    data = f.read()
+    data = f.readlines()
     print(main(data))

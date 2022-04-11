@@ -8,7 +8,7 @@ def main(data:str):
     """
     ans = []
     for i in data:
-        ans.append(len(i))
+        ans.append(len(i)-1)
     return ans
    
     

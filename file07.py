@@ -15,7 +15,7 @@ def main(data:str):
     return sum(ans)
     
 # Read data from file
-with open('txt_file/data09.txt', 'r') as f:
+with open('txt_file/data07.txt', 'r') as f:
     data = f.readlines()
     print(main(data))
     

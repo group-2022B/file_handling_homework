@@ -1,3 +1,6 @@
+import re
+
+
 def main(data:str):
     """
     The data is from the file. Find the each row length and return as list type.
@@ -7,12 +10,11 @@ def main(data:str):
         list: return answer
     """
     ans = []
-    for i in data:
-        ans.append(len(i)-1)
+    for line in data.split('\n'):
+        ans.append(len(line))
     return ans
-   
     
 # Read data from file
 with open('txt_file/data06.txt', 'r') as f:
-    data = f.readlines()
+    data = f.read()
     print(main(data))
